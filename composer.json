@@ -1,5 +1,5 @@
 {
-    "name": "plokko/firebase-php",
+    "name": "amos97/firebase-php",
     "description": "Firebase API php implementation",
     "type": "library",
     "license": "MIT",
@@ -14,12 +14,12 @@
 	
     "autoload": {
         "psr-4": {
-            "Plokko\\Firebase\\": "src/"
+            "Amos97\\Firebase\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Plokko\\Firebase\\Tests\\": "tests/"
+            "Amos97\\Firebase\\Tests\\": "tests/"
         }
     }
 }
