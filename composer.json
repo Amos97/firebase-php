@@ -14,12 +14,12 @@
 	
     "autoload": {
         "psr-4": {
-            "Amos97\\Firebase\\": "src/"
+            "Plokko\\Firebase\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Amos97\\Firebase\\Tests\\": "tests/"
+            "Plokko\\Firebase\\Tests\\": "tests/"
         }
     }
 }
