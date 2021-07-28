@@ -17,7 +17,7 @@ class Database{
     function __construct(ServiceAccount $serviceAccount)
     {
         $this->serviceAccount = $serviceAccount;
-        $this->baseUrl = 'https://'.$serviceAccount->getProjectId().'.firebaseio.com/';
+        $this->baseUrl = 'https://'.$serviceAccount->getDatabaseId().'.firebaseio.com/';
     }
 
     /**
