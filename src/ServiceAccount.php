@@ -79,6 +79,13 @@ class ServiceAccount
         }
         return $this->authConfig['project_id'];
     }
+    
+    public function getDatabaseId(){
+        if(empty($this->authConfig['database_id'])){
+            throw new UnexpectedValueException('database_id not found in auth config file!');
+        }
+        return $this->authConfig['database_id'];
+    }
 
     /**
      * Get the client_email service account filed
